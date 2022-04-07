@@ -1,9 +1,12 @@
 import React from 'react'
+import UserList from "./components/UserList"
+import TodoList from "./components/TodoList"
 
 const App = () => {
     return (
         <div>
-            <h1>React 18.0.0</h1>
+            <UserList/>
+           <TodoList/>
         </div>
     )
 }
